@@ -1,0 +1,111 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IcoBeer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/jquery.mobile-1.4.0.min.css">
+<link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+     <div data-role="page" id="pageinicial">
+      
+  <div data-role="header">
+    
+    <a href="javascript:Configuracion();" data-role="button" data-icon="gear" data-rel="dialog">Configuracion</a>
+    <a href="javascript:Inicio();" data-role="button" data-icon="star" data-rel="dialog">Iniciar</a>
+		<h1 class="hpage">icoBeer</h1>
+   
+		 
+  
+    <div data-role="navbar">
+        <ul>
+	    <li><a href="" data-icon="grid" data-ajax="false">Inicio</a></li>
+        </ul>
+
+        </div>
+        </div>
+       
+        <div data-role="content">
+        <img id="Logo" src="image/beer1.jpg"/>
+
+
+
+        </div>
+        <div data-role="footer">
+        <h1>icosoft</h1>
+        </div>
+        </div>
+
+
+   
+    <div data-role="page" id="Configuracion">
+       <div data-role="header"><h1>Configuracion</h1></div>
+        <div data-role="content">
+        </div>
+        <div data-role="footer">
+        <a href="javascript:Modificar();" data-role="button" data-icon="gear" data-rel="dialog">Modificar</a> 
+        <a href="javascript:Creditos();" data-role="button" data-icon="info" data-rel="dialog">Creditos</a> 
+            
+        <img id="Logo" src="image/cheve.jpg"/>
+
+            <h1>icosoft</h1>
+        </div>
+        </div>
+
+
+
+    <div data-role="page" id="Inicio">
+        <div data-role="header"><h1>Inicio</h1></div>
+        <div data-role="content">
+
+        <label for="descripcion">Descripcion:</label>
+        <input type="text" name="Descripcion" id="Descripcion">
+       
+        <label for="Fecha">Fecha:</label>
+        <input type="date" name="bday" id="bday">
+
+        <label for="Hora">Hora:</label>
+        <input type="cad" name="f" id="f">
+       
+
+        <input type="submit" data-inline="true" value="Grabar">
+         </div>
+    </div>
+     
+
+
+
+    <div data-role="page" id="Modificar">
+        <div data-role="header"><h1>Modificar</h1></div>
+        <div data-role="content">
+        </div>
+        <div data-role="footer">
+        <h1>icosoft</h1>
+        </div>
+        </div>
+
+
+
+
+     <div data-role="page" id="Creditos">
+       <div data-role="header"><h1>Creditos</h1></div>
+        <div data-role="content">
+        </div>
+        <div data-role="footer">
+        </div>
+        </div> 
+    
+    
+
+</body>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.router.js"></script>
+<script src="js/jquery.mobile-1.4.0.min.js"></script>
+
+       <script type="text/javascript" src="js/index.js"></script>
+   <script type="text/javascript" src="js/cordova-2.1.0.js"></script>
+</html>

@@ -1,0 +1,5 @@
+c:\users\eduardo\documents\visual studio 2012\Projects\icoBeer\icoBeer\bin\icoBeer.dll
+c:\users\eduardo\documents\visual studio 2012\Projects\icoBeer\icoBeer\bin\icoBeer.pdb
+c:\users\eduardo\documents\visual studio 2012\Projects\icoBeer\icoBeer\obj\Debug\icoBeer.csprojResolveAssemblyReference.cache
+c:\users\eduardo\documents\visual studio 2012\Projects\icoBeer\icoBeer\obj\Debug\icoBeer.dll
+c:\users\eduardo\documents\visual studio 2012\Projects\icoBeer\icoBeer\obj\Debug\icoBeer.pdb

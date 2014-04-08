@@ -1,0 +1,51 @@
+<div data-role="page" id="paghome">
+
+  <div data-role="header">
+    
+    <a href="javascript:OpenConfiguracion();" data-role="button" data-icon="home" data-rel="dialog">Configuracion</a>
+		<h1 class="hpage">== Empresa selecionada ==</h1>
+    <a href="javascript:Salir();" data-role="button" data-icon="delete">Salir</a>
+  
+    <div data-role="navbar">
+      <ul>
+	<li><a href="#pagfacturas" data-icon="grid" data-ajax="false">Facturas</a></li>
+        <li><a href="#pagclientes" data-icon="grid" data-ajax="false">Clientes</a></li>
+        <li><a href="#pagconceptos" data-icon="grid" data-ajax="false">Conceptos</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="content">
+    <img id="Logo" src="image/LogonImage.jpg"/>
+  </div>
+
+  <div data-role="footer">
+    <h1>Powered by Link3r</h1>
+  </div>
+</div>
+
+<div data-role="page" id="Configuracion">
+
+  <div data-role="header">
+    
+    <a href="javascript:OpenConfiguracion();" data-role="button" data-icon="home" data-rel="dialog">Configuracion</a>
+		<h1 class="hpage">== Empresa selecionada ==</h1>
+    <a href="javascript:Salir();" data-role="button" data-icon="delete">Salir</a>
+  
+    <div data-role="navbar">
+      <ul>
+	<li><a href="#pagfacturas" data-icon="grid" data-ajax="false">Facturas</a></li>
+        <li><a href="#pagclientes" data-icon="grid" data-ajax="false">Clientes</a></li>
+        <li><a href="#pagconceptos" data-icon="grid" data-ajax="false">Conceptos</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="content">
+    <img id="Logo" src="image/LogonImage.jpg"/>
+  </div>
+
+  <div data-role="footer">
+    <h1>Powered by Link3r</h1>
+  </div>
+</div>
